@@ -55,6 +55,7 @@
       <DependentUpon>FormOrganizador.cs</DependentUpon>
       <Link>FormOrganizador.Designer.cs</Link>
     </Compile>
+    <Compile Include="DadosService.cs" />
     <Compile Include="FormPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
