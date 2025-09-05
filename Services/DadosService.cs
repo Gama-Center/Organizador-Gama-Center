@@ -7,7 +7,6 @@ namespace Organizador_Gama_Center.Services // O namespace agora inclui a pasta!
 {
     public class DadosService
     {
-        private const string OpcaoAdicionar = "Adicionar Novo...";
 
         // Este método privado ajuda a não repetir código
         private List<string> CarregarListaDeArquivo(string nomeArquivo, List<string> listaPadrao)
@@ -21,7 +20,7 @@ namespace Organizador_Gama_Center.Services // O namespace agora inclui a pasta!
             {
                 lista = new List<string>(listaPadrao);
             }
-            lista.Add(OpcaoAdicionar);
+
             return lista;
         }
 
